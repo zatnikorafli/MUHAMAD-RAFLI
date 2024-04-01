@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color:#4682B4;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between; /* Menjadikan navbar kiri dan kanan rata */
+  align-items: center;
+  box-shadow: 3px 3px 5px white;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: auto; /* Jika ingin SMK 1 BINONG lebih ke kiri */
+}
+
+.navbar-left {
+  margin-right: auto; /* Ini akan mendorong elemen ke kiri sejauh mungkin */
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
